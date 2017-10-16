@@ -36,21 +36,10 @@
                 <version>2.5</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <suiteXmlFiles>cd
-                        <file>res/testNG.xml</file>
-                    </suiteXmlFiles>
-                    <!--<workingDirectory>target/</workingDirectory>-->
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.5</version>
-                <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
                         <file>res/testNG.xml</file>
                     </suiteXmlFiles>
+                    <!--<workingDirectory>target/</workingDirectory>-->
                 </configuration>
             </plugin>
         </plugins>
