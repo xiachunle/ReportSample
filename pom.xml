@@ -51,7 +51,6 @@
                     <suiteXmlFiles>
                         <file>res/testNG.xml</file>
                     </suiteXmlFiles>
-                    <!--<workingDirectory>target/</workingDirectory>-->
                 </configuration>
             </plugin>
         </plugins>
